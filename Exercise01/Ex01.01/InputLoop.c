@@ -8,7 +8,10 @@ void InputLoop(void)
     {
         printf("Enter a character: ");
         input = ReadCharacter();
-        PrintCharacter(input);
+        if (!IsQ(input))
+        {
+            PrintCharacter(input);
+        }
     } while (!IsQ(input));
 }
 
