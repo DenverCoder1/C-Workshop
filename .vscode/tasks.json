@@ -11,6 +11,7 @@
             "args": [
                 "-g",
                 "${fileDirname}/*.c",
+                "-lm",
                 "-o",
                 "${fileDirname}/out/${fileBasenameNoExtension}"
             ],
