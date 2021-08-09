@@ -1,19 +1,12 @@
 #include "ValidateId.h"
 #include <math.h>
 
-bool ValidateIsraeliId(const int id)
+int ComputeCheckDigit(int remainingId)
 {
-    // check that the length is between 0 and ID_MAX_LENGTH
-    if (id < 0 || id >= pow(10, ID_MAX_LENGTH))
-    {
-        return false;
-    }
     // running weighted sum
     int weightedSum = 0;
-    // remaining id
-    int remainingId = id;
     // loop through each digit in id
-    for (int i = ID_MAX_LENGTH; i > 0; i--)
+    for (int i = ID_MAX_LENGTH - 1; i > 0; i--)
     {
         // isolate last digit
         int lastDigit = remainingId % 10;
@@ -24,8 +17,8 @@ bool ValidateIsraeliId(const int id)
         // add sum of digits in weighted num to a overall sum
         weightedSum += SumOfDigits(lastDigit * weight);
     }
-    // check that weighted sum is divisible by 10
-    return (weightedSum % 10 == 0);
+    // return 10 minus last digit in sum, or 0 if last digit is 0
+    return (10 - (weightedSum % 10)) % 10;
 }
 
 int SumOfDigits(int number)

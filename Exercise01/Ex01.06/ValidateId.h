@@ -11,13 +11,12 @@
 static const int ID_MAX_LENGTH = 9;
 
 /**
- * @brief Validate a 9-digit Israeli ID number
- * according to the Luhn algorithm.
+ * @brief Get the check digit for an Israeli ID number.
  *
- * @param id the ID number to validate.
- * @return true if the ID number is valid, false otherwise.
+ * @param remainingId the first 8 digits of the ID number
+ * @return int the check digit for the ID number
  */
-bool ValidateIsraeliId(const int id);
+int ComputeCheckDigit(int remainingId);
 
 /**
  * @brief Compute the sum of the digits in a number.
