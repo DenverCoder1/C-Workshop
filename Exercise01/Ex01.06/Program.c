@@ -1,6 +1,5 @@
 #include "ValidateId.h"
 #include <stdio.h>
-#include <stdbool.h>
 
 /**
  * @brief Test validation of ID
