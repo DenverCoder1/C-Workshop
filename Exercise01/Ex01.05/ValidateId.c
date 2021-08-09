@@ -22,13 +22,13 @@ bool ValidateIsraeliId(const int id)
         // weight is 2 if index is even or 1 if odd
         int weight = (i % 2 == 0) ? 2 : 1;
         // add sum of digits in weighted num to a overall sum
-        weightedSum += sumOfDigits(lastDigit * weight);
+        weightedSum += SumOfDigits(lastDigit * weight);
     }
     // check that weighted sum is divisible by 10
     return (weightedSum % 10 == 0);
 }
 
-int sumOfDigits(int number)
+int SumOfDigits(int number)
 {
     int sum = 0;
     // loop through each digit in number

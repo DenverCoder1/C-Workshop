@@ -25,4 +25,4 @@ bool ValidateIsraeliId(const int id);
  * @param number the number to sum
  * @return int the sum of the digits in the number
  */
-int sumOfDigits(int number);
+int SumOfDigits(int number);
