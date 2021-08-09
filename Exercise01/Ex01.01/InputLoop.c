@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stdbool.h>
 #include "InputLoop.h"
 
 void InputLoop(void)
@@ -10,7 +9,7 @@ void InputLoop(void)
         printf("Enter a character: ");
         input = ReadCharacter();
         PrintCharacter(input);
-    } while (IsQ(input));
+    } while (!IsQ(input));
 }
 
 char ReadCharacter()
