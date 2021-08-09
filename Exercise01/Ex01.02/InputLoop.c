@@ -9,7 +9,10 @@ void InputLoop(void)
     {
         printf("Enter a character: ");
         input = ReadCharacter();
-        PrintUpperCase(input);
+        if (!IsQ(input))
+        {
+            PrintUpperCase(input);
+        }
     } while (!IsQ(input));
 }
 
