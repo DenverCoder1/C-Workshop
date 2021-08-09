@@ -1,5 +1,4 @@
 #include "Diamond.h"
-#include <malloc.h>
 #include <stdlib.h>
 
 
