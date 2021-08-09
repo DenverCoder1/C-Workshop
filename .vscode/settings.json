@@ -52,4 +52,7 @@
     "C_Cpp.vcFormat.space.withinSquareBrackets": false,
     "C_Cpp.vcFormat.wrap.preserveBlocks": "never",
     "editor.stickyTabStops": true,
+    "C_Cpp.default.includePath": [
+        "${workspaceFolder}/**",
+    ]
 }
