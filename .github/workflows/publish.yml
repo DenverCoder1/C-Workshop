@@ -12,13 +12,11 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
+      - name: Doxygen
+        uses: mattnotmitt/doxygen-action@v1.1.0
+      - name: Deploy to GitHub Pages
+        uses: JamesIves/github-pages-deploy-action@3.7.1
         with:
-          fetch-depth: 0
-      - name: Generate Documentation
-        uses: mattnotmitt/doxygen-action@v1
-      - name: Publish generated content to GitHub Pages
-        uses: tsunematsu21/actions-publish-gh-pages@v1.0.1
-        with:
-          dir: docs/html
+          github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: gh-pages
-          token: ${{ secrets.PUBLISH_TOKEN }}
+          folder: docs/html
