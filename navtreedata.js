@@ -25,7 +25,6 @@
 var NAVTREE =
 [
   [ "C Workshop", "index.html", [
-    [ "C-Workshop", "index.html", null ],
     [ "Files", "files.html", [
       [ "File List", "files.html", "files_dup" ],
       [ "Globals", "globals.html", [

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['c_2dworkshop_59',['C-Workshop',['../index.html',1,'']]]
+  ['c_20workshop_59',['C Workshop',['../index.html',1,'']]]
 ];
