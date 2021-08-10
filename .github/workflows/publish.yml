@@ -21,4 +21,4 @@ jobs:
         with:
           dir: docs/html
           branch: gh-pages
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.PUBLISH_TOKEN }}
