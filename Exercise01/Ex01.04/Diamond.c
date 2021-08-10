@@ -10,6 +10,7 @@ int PrintDiamond(int diamondSize)
         // return a negative value to indicate an error
         return -1;
     }
+    // keep track of the number of characters printed
     int stringLength = 0;
     // print the diamond
     for (int i = 0; i < diamondSize; i++)
