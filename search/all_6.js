@@ -1,9 +1,5 @@
 var searchData=
 [
-  ['readcharacter_17',['ReadCharacter',['../_ex01_801_2_input_loop_8c.html#a353343632dfbdedc78af41fbbec2998e',1,'ReadCharacter():&#160;InputLoop.c'],['../_ex01_801_2_input_loop_8h.html#a353343632dfbdedc78af41fbbec2998e',1,'ReadCharacter():&#160;InputLoop.c'],['../_ex01_802_2_input_loop_8c.html#a353343632dfbdedc78af41fbbec2998e',1,'ReadCharacter():&#160;InputLoop.c'],['../_ex01_802_2_input_loop_8h.html#a353343632dfbdedc78af41fbbec2998e',1,'ReadCharacter():&#160;InputLoop.c']]],
-  ['readme_2emd_18',['README.md',['../_r_e_a_d_m_e_8md.html',1,'']]],
-  ['readnumber_19',['ReadNumber',['../_not_quite_edges_8c.html#ae99cb1808dd245ed91647e1c2f411b4d',1,'ReadNumber():&#160;NotQuiteEdges.c'],['../_not_quite_edges_8h.html#ae99cb1808dd245ed91647e1c2f411b4d',1,'ReadNumber():&#160;NotQuiteEdges.c']]],
-  ['reversenumbers_20',['ReverseNumbers',['../_reverse_numbers_8c.html#a695b4bb28cf78282888a14cdc1d4b66c',1,'ReverseNumbers():&#160;ReverseNumbers.c'],['../_reverse_numbers_8h.html#a695b4bb28cf78282888a14cdc1d4b66c',1,'ReverseNumbers():&#160;ReverseNumbers.c']]],
-  ['reversenumbers_2ec_21',['ReverseNumbers.c',['../_reverse_numbers_8c.html',1,'']]],
-  ['reversenumbers_2eh_22',['ReverseNumbers.h',['../_reverse_numbers_8h.html',1,'']]]
+  ['main_17',['main',['../_ex01_801_2_program_8c.html#a840291bc02cba5474a4cb46a9b9566fe',1,'main(void):&#160;Program.c'],['../_ex01_802_2_program_8c.html#a840291bc02cba5474a4cb46a9b9566fe',1,'main(void):&#160;Program.c'],['../_ex01_803_2_program_8c.html#a840291bc02cba5474a4cb46a9b9566fe',1,'main(void):&#160;Program.c'],['../_ex01_804_2_program_8c.html#a840291bc02cba5474a4cb46a9b9566fe',1,'main(void):&#160;Program.c'],['../_ex01_805_2_program_8c.html#a840291bc02cba5474a4cb46a9b9566fe',1,'main(void):&#160;Program.c'],['../_ex01_806_2_program_8c.html#a840291bc02cba5474a4cb46a9b9566fe',1,'main(void):&#160;Program.c'],['../_ex01_807_2_program_8c.html#a840291bc02cba5474a4cb46a9b9566fe',1,'main(void):&#160;Program.c'],['../_ex01_808_2_program_8c.html#a840291bc02cba5474a4cb46a9b9566fe',1,'main(void):&#160;Program.c']]],
+  ['mylibrary_18',['MyLibrary',['../namespace_my_library.html',1,'']]]
 ];
