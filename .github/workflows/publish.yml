@@ -12,6 +12,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
+        with:
+          submodules: 'true'
       - name: Doxygen
         uses: mattnotmitt/doxygen-action@v1.1.0
       - name: Deploy to GitHub Pages
