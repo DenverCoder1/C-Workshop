@@ -1,5 +1,5 @@
 #include "Diamond.h"
-#include <stdlib.h>
+#include <stdio.h>
 
 
 int PrintDiamond(int diamondSize)

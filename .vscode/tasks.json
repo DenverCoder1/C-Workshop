@@ -13,7 +13,7 @@
                 "${fileDirname}/*.c",
                 "-lm",
                 "-o",
-                "${fileDirname}/out/${fileBasenameNoExtension}"
+                "${fileDirname}/out/a.out"
             ],
             "options": {
                 "cwd": "${fileDirname}"

@@ -1,6 +1,6 @@
 {
     "code-runner.executorMap": {
-        "c": "cd $dir && mkdir -p out && gcc $fileName -o out/$fileNameWithoutExt && $dir/out/$fileNameWithoutExt"
+        "c": "cd $dir && mkdir -p out && gcc ./*.c -lm -o ./out/a.out && ./out/a.out"
     },
     "files.associations": {
         "*.rmd": "markdown",
