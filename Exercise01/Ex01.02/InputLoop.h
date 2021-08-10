@@ -7,8 +7,8 @@
 
  /**
   * @brief Function that receives character input
-  * from the user and prints it. The function
-  * terminates when the input is 'Q' or 'q'
+  * from the user and prints it in uppercase.
+  * The function terminates when the input is 'Q' or 'q'
   */
 void InputLoop();
 
