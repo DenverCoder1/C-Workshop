@@ -15,22 +15,21 @@ void InputLoop();
 /**
  * @brief Read a character from the user
  *
- * @return the character read
+ * @return char The character read
  */
 char ReadCharacter();
 
 /**
  * @brief Print a character to the user
  *
- * @param input the character to print
+ * @param input The character to print
  */
 void PrintCharacter(char input);
 
 /**
  * @brief Check if a character is a 'Q' or 'q'
  *
- * @param input character to check
- * @return true if the character is a 'Q' or 'q'
- * @return false if the character is not a 'Q' or 'q'
+ * @param input Character to check
+ * @return true if the character is a 'Q' or 'q', false otherwise
  */
 bool IsQ(char input);

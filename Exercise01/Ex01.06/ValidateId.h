@@ -13,15 +13,15 @@ static const int ID_MAX_LENGTH = 9;
 /**
  * @brief Get the check digit for an Israeli ID number.
  *
- * @param remainingId the first 8 digits of the ID number
- * @return int the check digit for the ID number
+ * @param remainingId The first 8 digits of the ID number
+ * @return int The check digit for the ID number
  */
 int ComputeCheckDigit(int remainingId);
 
 /**
  * @brief Compute the sum of the digits in a number.
  *
- * @param number the number to sum
- * @return int the sum of the digits in the number
+ * @param number The number to sum
+ * @return int The sum of the digits in the number
  */
 int SumOfDigits(int number);
