@@ -39,7 +39,7 @@
             "label": "run doxygen",
             "type": "shell",
             "options": {
-                "cwd": "${fileDirname}"
+                "cwd": "${workspaceFolder}"
             },
             "command": "doxygen",
             "problemMatcher": []
@@ -48,10 +48,10 @@
             "label": "run doxygen and open docs",
             "type": "shell",
             "options": {
-                "cwd": "${fileDirname}"
+                "cwd": "${workspaceFolder}"
             },
             "dependsOn": "run doxygen",
-            "command": "brave ${fileDirname}/docs/html/index.html",
+            "command": "brave \"${workspaceFolder}/docs/html/index.html\"",
             "problemMatcher": []
         }
     ],
