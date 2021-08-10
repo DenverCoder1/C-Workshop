@@ -1,7 +1,7 @@
 #include "InputLoop.h"
 
 /**
- * @brief Test input loop
+ * @brief Test input loop with uppercase
  */
 int main(void)
 {

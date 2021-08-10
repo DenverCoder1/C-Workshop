@@ -9,9 +9,9 @@
    * asterisk characters using a parameter for
    * the number of asterisks in the base.
    *
-   * diamondSize must be a positive odd integer.
+   * @note diamondSize must be a positive odd integer.
    *
-   * @param diamondSize number of asterisks in the base
-   * @return int length of string if successful, -1 otherwise
+   * @param diamondSize Number of asterisks in the base
+   * @return int Length of string if successful, negative number otherwise
    */
 int PrintDiamond(int diamondSize);
