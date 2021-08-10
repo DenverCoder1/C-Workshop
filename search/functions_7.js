@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['test_84',['test',['../class_my_library_1_1_example.html#a1e26670d08adc790d3d684a15d275a40',1,'MyLibrary::Example']]]
+  ['validateisraeliid_58',['ValidateIsraeliId',['../_ex01_805_2_validate_id_8c.html#a498929a516472b83eedf201f6fbb6cc3',1,'ValidateIsraeliId(const int id):&#160;ValidateId.c'],['../_ex01_805_2_validate_id_8h.html#a498929a516472b83eedf201f6fbb6cc3',1,'ValidateIsraeliId(const int id):&#160;ValidateId.c']]]
 ];

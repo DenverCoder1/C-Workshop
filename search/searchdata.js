@@ -1,36 +1,24 @@
 var indexSectionsWithContent =
 {
-  0: "bcdegimnprstv",
-  1: "es",
-  2: "m",
-  3: "deinprsv",
-  4: "cimnprstv",
-  5: "c",
-  6: "bgr",
-  7: "bcde"
+  0: "cdimnprsv",
+  1: "dinprsv",
+  2: "cimnprsv",
+  3: "c"
 };
 
 var indexSectionNames =
 {
   0: "all",
-  1: "classes",
-  2: "namespaces",
-  3: "files",
-  4: "functions",
-  5: "enums",
-  6: "enumvalues",
-  7: "pages"
+  1: "files",
+  2: "functions",
+  3: "pages"
 };
 
 var indexSectionLabels =
 {
   0: "All",
-  1: "Data Structures",
-  2: "Namespaces",
-  3: "Files",
-  4: "Functions",
-  5: "Enumerations",
-  6: "Enumerator",
-  7: "Pages"
+  1: "Files",
+  2: "Functions",
+  3: "Pages"
 };
 
