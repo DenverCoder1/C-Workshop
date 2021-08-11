@@ -9,6 +9,8 @@
             ],
             "command": "/usr/bin/gcc",
             "args": [
+                "-Wall",
+                "-Werror",
                 "-g",
                 "${fileDirname}/*.c",
                 "-lm",
