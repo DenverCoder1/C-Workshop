@@ -7,7 +7,7 @@ int main(void)
 {
     const char *str = "Hello World!";
 
-    printf("The length of the string is %d.\n", StringLength(str));
+    printf("The length of the string is %d.\n", (unsigned int) StringLength(str));
 
     return 0;
 }
