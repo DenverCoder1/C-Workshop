@@ -55,6 +55,15 @@
             "dependsOn": "run doxygen",
             "command": "brave \"${workspaceFolder}/docs/html/index.html\"",
             "problemMatcher": []
+        },
+        {
+            "label": "disassembly",
+            "type": "shell",
+            "options": {
+                "cwd": "${fileDirname}"
+            },
+            "dependsOn": "C/C++: gcc build active file",
+            "command": "objdump -d -Mintel -S ./out/a.out"
         }
     ],
     "version": "2.0.0"
