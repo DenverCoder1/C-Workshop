@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['diamond_2ec_61',['Diamond.c',['../_diamond_8c.html',1,'']]],
-  ['diamond_2eh_62',['Diamond.h',['../_diamond_8h.html',1,'']]]
+  ['diamond_2ec_65',['Diamond.c',['../_diamond_8c.html',1,'']]],
+  ['diamond_2eh_66',['Diamond.h',['../_diamond_8h.html',1,'']]]
 ];

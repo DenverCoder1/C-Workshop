@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>C Workshop: Exercise04/Ex04.02/Program.c File Reference</title>
+<title>C Workshop: Exercise04/Ex04.05/SearchEnvironment.h Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -63,7 +63,7 @@ $(function() {
 </div>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
-$(document).ready(function(){initNavTree('_exercise04_2_ex04_802_2_program_8c.html',''); initResizable(); });
+$(document).ready(function(){initNavTree('_search_environment_8h_source.html',''); initResizable(); });
 /* @license-end */
 </script>
 <div id="doc-content">
@@ -82,48 +82,25 @@ $(document).ready(function(){initNavTree('_exercise04_2_ex04_802_2_program_8c.ht
 </div>
 
 <div class="header">
-  <div class="summary">
-<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">Program.c File Reference</div>  </div>
+<div class="title">SearchEnvironment.h</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;stdio.h&gt;</code><br />
-<code>#include &quot;<a class="el" href="_reverse_words_8h_source.html">ReverseWords.h</a>&quot;</code><br />
-</div><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
-Functions</h2></td></tr>
-<tr class="memitem:ae66f6b31b5ad750f1fe042a706a4e3d4"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_exercise04_2_ex04_802_2_program_8c.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a> ()</td></tr>
-<tr class="memdesc:ae66f6b31b5ad750f1fe042a706a4e3d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Test the ReverseWords function.  <a href="_exercise04_2_ex04_802_2_program_8c.html#ae66f6b31b5ad750f1fe042a706a4e3d4">More...</a><br /></td></tr>
-<tr class="separator:ae66f6b31b5ad750f1fe042a706a4e3d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table>
-<h2 class="groupheader">Function Documentation</h2>
-<a id="ae66f6b31b5ad750f1fe042a706a4e3d4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae66f6b31b5ad750f1fe042a706a4e3d4">&#9670;&nbsp;</a></span>main()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">int main </td>
-          <td>(</td>
-          <td class="paramtype">void&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Test the ReverseWords function. </p>
-
-</div>
-</div>
-</div><!-- contents -->
+<a href="_search_environment_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#pragma once</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#include &lt;stdbool.h&gt;</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160; </div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160; </div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="keywordtype">void</span> <a class="code" href="_search_environment_8h.html#aa62163299032caed6404cadf1d273d1e">SearchEnvironment</a>(<span class="keywordtype">char</span> *envp[], <span class="keywordtype">char</span> *search);</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160; </div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="keywordtype">bool</span> <a class="code" href="_search_environment_8h.html#abf02f9bd10e190f0f7eb7ae784e3606e">StartsWith</a>(<span class="keywordtype">char</span> *<span class="keywordtype">string</span>, <span class="keywordtype">char</span> *search);</div>
+<div class="ttc" id="a_search_environment_8h_html_aa62163299032caed6404cadf1d273d1e"><div class="ttname"><a href="_search_environment_8h.html#aa62163299032caed6404cadf1d273d1e">SearchEnvironment</a></div><div class="ttdeci">void SearchEnvironment(char *envp[], char *search)</div><div class="ttdoc">Prints the environment variables starting with the given search term using the format:</div><div class="ttdef"><b>Definition:</b> SearchEnvironment.c:5</div></div>
+<div class="ttc" id="a_search_environment_8h_html_abf02f9bd10e190f0f7eb7ae784e3606e"><div class="ttname"><a href="_search_environment_8h.html#abf02f9bd10e190f0f7eb7ae784e3606e">StartsWith</a></div><div class="ttdeci">bool StartsWith(char *string, char *search)</div><div class="ttdoc">Checks if a string starts with the text of search.</div><div class="ttdef"><b>Definition:</b> SearchEnvironment.c:21</div></div>
+</div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_22e9bc80d1c9552e4243f5dbfdcbdb03.html">Exercise04</a></li><li class="navelem"><a class="el" href="dir_6a4ad3ec45ed2cf3fd31bd0935e9fbcf.html">Ex04.02</a></li><li class="navelem"><a class="el" href="_exercise04_2_ex04_802_2_program_8c.html">Program.c</a></li>
+    <li class="navelem"><a class="el" href="dir_22e9bc80d1c9552e4243f5dbfdcbdb03.html">Exercise04</a></li><li class="navelem"><a class="el" href="dir_fa504a6f23592a28baeded3b7da6bb20.html">Ex04.05</a></li><li class="navelem"><a class="el" href="_search_environment_8h.html">SearchEnvironment.h</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
