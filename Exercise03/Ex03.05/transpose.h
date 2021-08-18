@@ -1,0 +1,32 @@
+#include <stdio.h>
+#define CELL_WIDTH      3
+#define CELL_PRECISION  0
+
+/// @file transpose.h
+
+/// Type definition for a numeric matrix element
+typedef double matrix_element;
+
+/**
+ * @brief Recieves a square matrix and transposes it in place
+ *
+ * @param matrix The matrix to transpose
+ * @param size The size of the matrix (rows and columns)
+ */
+void TransposeMatrix(matrix_element **matrix, size_t size);
+
+/**
+ * @brief Swaps two matrix elements
+ *
+ * @param first The first element
+ * @param second The element to swap with
+ */
+void SwapElements(matrix_element *first, matrix_element *second);
+
+/**
+ * @brief Prints a square matrix
+ *
+ * @param matrix Matrix to print
+ * @param size Size of the matrix (rows and columns)
+ */
+void PrintMatrix(matrix_element **matrix, size_t size);
