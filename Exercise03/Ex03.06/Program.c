@@ -34,9 +34,9 @@ int main()
         "\nType of matrix: %s\n",
         type == SYMMETRIC
         ? "Symmetric"
-        : type == SKEW_SYMMETRIC
-        ? "Skew-Symmetric"
-        : "Neither Symmetric nor Skew-Symmetric"
+        : (type == SKEW_SYMMETRIC
+            ? "Skew-Symmetric"
+            : "Neither Symmetric nor Skew-Symmetric")
     );
 
     // Print the transposed matrix

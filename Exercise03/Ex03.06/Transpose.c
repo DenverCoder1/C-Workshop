@@ -27,15 +27,7 @@ enum matrix_type TransposeMatrix(matrix_element **matrix, size_t size)
         }
     }
     // return the matrix type
-    if (isSymmetric)
-    {
-        return SYMMETRIC;
-    }
-    else if (isSkewSymmetric)
-    {
-        return SKEW_SYMMETRIC;
-    }
-    return NONE;
+    return isSymmetric ? SYMMETRIC : (isSkewSymmetric ? SKEW_SYMMETRIC : NONE);
 }
 
 void SwapElements(matrix_element *first, matrix_element *second)
