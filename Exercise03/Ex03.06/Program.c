@@ -18,7 +18,7 @@ int main()
         // Fill the row of the matrix with its overall index
         for (size_t col = 0; col < size; col++)
         {
-            matrix[row][col] = row * size + col;
+            *(*(matrix + row) + col) = row * size + col;
         }
     }
 
@@ -27,10 +27,20 @@ int main()
     PrintMatrix(matrix, size);
 
     // Transpose the matrix
-    TransposeMatrix(matrix, size);
+    enum matrix_type type = TransposeMatrix(matrix, size);
+
+    // Print the type of matrix
+    printf(
+        "\nType of matrix: %s\n",
+        type == SYMMETRIC
+        ? "Symmetric"
+        : type == SKEW_SYMMETRIC
+        ? "Skew-Symmetric"
+        : "Neither Symmetric nor Skew-Symmetric"
+    );
 
     // Print the transposed matrix
-    printf("Transposed matrix:\n");
+    printf("\nTransposed matrix:\n");
     PrintMatrix(matrix, size);
 
     return 0;

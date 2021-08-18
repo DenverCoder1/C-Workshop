@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "transpose.h"
+#include "Transpose.h"
 
 void TransposeMatrix(matrix_element **matrix, size_t size)
 {
