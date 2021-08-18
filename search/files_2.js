@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['notquiteedges_2ec_42',['NotQuiteEdges.c',['../_not_quite_edges_8c.html',1,'']]],
-  ['notquiteedges_2eh_43',['NotQuiteEdges.h',['../_not_quite_edges_8h.html',1,'']]]
+  ['inputloop_2ec_48',['InputLoop.c',['../_ex01_801_2_input_loop_8c.html',1,'(Global Namespace)'],['../_ex01_802_2_input_loop_8c.html',1,'(Global Namespace)']]],
+  ['inputloop_2eh_49',['InputLoop.h',['../_ex01_801_2_input_loop_8h.html',1,'(Global Namespace)'],['../_ex01_802_2_input_loop_8h.html',1,'(Global Namespace)']]]
 ];
