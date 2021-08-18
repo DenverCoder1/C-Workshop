@@ -1,6 +1,9 @@
 #include <stdio.h>
 #include "Fibonacci.h"
 
+/**
+ * @brief Test the lazy evaluation Fibonacci function
+ */
 int main()
 {
     // calculate and store the first 94 Fibonacci numbers

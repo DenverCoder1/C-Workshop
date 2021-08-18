@@ -2,6 +2,9 @@
 #include <malloc.h>
 #include "Transpose.h"
 
+/**
+ * @brief Test the transpose function that checks for symmetry/skew-symmetry
+ */
 int main()
 {
     // read in the size of the matrix

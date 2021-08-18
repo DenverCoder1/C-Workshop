@@ -2,6 +2,9 @@
 #include <malloc.h>
 #include "Transpose.h"
 
+/**
+ * @brief Test the transpose function
+ */
 int main()
 {
     // read in the size of the matrix
