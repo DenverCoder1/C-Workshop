@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <malloc.h>
 #include "ReverseWords.h"
 
 /**
@@ -11,6 +12,8 @@ int main()
     char *reversed = ReverseWords(input);
 
     printf("%s\n", reversed);
+
+    free(reversed);
 
     return 0;
 }
