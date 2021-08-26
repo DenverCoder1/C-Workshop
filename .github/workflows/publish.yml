@@ -15,7 +15,8 @@ jobs:
         with:
           submodules: "true"
       - name: Doxygen
-        uses: mattnotmitt/doxygen-action@v1.1.0
+        run: |
+          doxygen
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@3.7.1
         with:
