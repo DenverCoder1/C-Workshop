@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['fibonacci_92',['Fibonacci',['../_ex03_803_2_fibonacci_8c.html#a3bf898fc0d293add4e2cada68f11b25e',1,'Fibonacci(size_t n):&#160;Fibonacci.c'],['../_ex03_803_2_fibonacci_8h.html#a3bf898fc0d293add4e2cada68f11b25e',1,'Fibonacci(size_t n):&#160;Fibonacci.c'],['../_ex03_804_2_fibonacci_8c.html#a3bf898fc0d293add4e2cada68f11b25e',1,'Fibonacci(size_t n):&#160;Fibonacci.c'],['../_ex03_804_2_fibonacci_8h.html#a3bf898fc0d293add4e2cada68f11b25e',1,'Fibonacci(size_t n):&#160;Fibonacci.c']]],
-  ['finalizefibonacci_93',['FinalizeFibonacci',['../_ex03_804_2_fibonacci_8c.html#a438596ce0f2e0e888b0a1423f69d8651',1,'FinalizeFibonacci(void):&#160;Fibonacci.c'],['../_ex03_804_2_fibonacci_8h.html#a438596ce0f2e0e888b0a1423f69d8651',1,'FinalizeFibonacci(void):&#160;Fibonacci.c']]]
+  ['deletenode_121',['DeleteNode',['../_linked_list_8c.html#add9cf480d7393175e0fc089098f3ce1a',1,'DeleteNode(List *list, Node *target):&#160;LinkedList.c'],['../_linked_list_8h.html#add9cf480d7393175e0fc089098f3ce1a',1,'DeleteNode(List *list, Node *target):&#160;LinkedList.c']]],
+  ['deletevalue_122',['DeleteValue',['../_linked_list_8c.html#aead43b499848ca12aa23bc9aa03b2305',1,'DeleteValue(List *list, ListDataType value):&#160;LinkedList.c'],['../_linked_list_8h.html#aead43b499848ca12aa23bc9aa03b2305',1,'DeleteValue(List *list, ListDataType value):&#160;LinkedList.c']]]
 ];

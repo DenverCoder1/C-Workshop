@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['matrix_5felement_121',['matrix_element',['../_ex03_805_2_transpose_8h.html#a8b2a08dacec10050d501690372285159',1,'matrix_element():&#160;Transpose.h'],['../_ex03_806_2_transpose_8h.html#a8b2a08dacec10050d501690372285159',1,'matrix_element():&#160;Transpose.h']]]
+  ['list_166',['List',['../_linked_list_8h.html#a8daf09bda1954bbafcf53df32b4aa15b',1,'LinkedList.h']]],
+  ['listdatatype_167',['ListDataType',['../_linked_list_8h.html#a9470aa47871d177c7115d2690369dc7b',1,'LinkedList.h']]]
 ];

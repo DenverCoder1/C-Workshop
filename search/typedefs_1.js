@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['ull_5ft_122',['ull_t',['../_ex03_803_2_fibonacci_8h.html#ac545a3f70533b0861661fb5a1ef8dd42',1,'ull_t():&#160;Fibonacci.h'],['../_ex03_804_2_fibonacci_8h.html#ac545a3f70533b0861661fb5a1ef8dd42',1,'ull_t():&#160;Fibonacci.h']]]
+  ['matrix_5felement_168',['matrix_element',['../_ex03_805_2_transpose_8h.html#a8b2a08dacec10050d501690372285159',1,'matrix_element():&#160;Transpose.h'],['../_ex03_806_2_transpose_8h.html#a8b2a08dacec10050d501690372285159',1,'matrix_element():&#160;Transpose.h']]]
 ];

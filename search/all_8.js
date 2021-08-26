@@ -1,15 +1,10 @@
 var searchData=
 [
-  ['searchenvironment_46',['SearchEnvironment',['../_search_environment_8c.html#aa62163299032caed6404cadf1d273d1e',1,'SearchEnvironment(char *envp[], char *search):&#160;SearchEnvironment.c'],['../_search_environment_8h.html#aa62163299032caed6404cadf1d273d1e',1,'SearchEnvironment(char *envp[], char *search):&#160;SearchEnvironment.c']]],
-  ['searchenvironment_2ec_47',['SearchEnvironment.c',['../_search_environment_8c.html',1,'']]],
-  ['searchenvironment_2eh_48',['SearchEnvironment.h',['../_search_environment_8h.html',1,'']]],
-  ['skew_5fsymmetric_49',['SKEW_SYMMETRIC',['../_ex03_806_2_transpose_8h.html#a07962dd0449c5d375d80af8cfaad8672a443be03038f194eddc2887581e29f1ac',1,'Transpose.h']]],
-  ['startswith_50',['StartsWith',['../_search_environment_8c.html#abf02f9bd10e190f0f7eb7ae784e3606e',1,'StartsWith(char *string, char *search):&#160;SearchEnvironment.c'],['../_search_environment_8h.html#abf02f9bd10e190f0f7eb7ae784e3606e',1,'StartsWith(char *string, char *search):&#160;SearchEnvironment.c']]],
-  ['stringinrange_51',['StringInRange',['../_print_stats_8c.html#a0bbc44aa560fe41829562854c4e29dd4',1,'StringInRange(const char *arg, char start, char end):&#160;PrintStats.c'],['../_print_stats_8h.html#a0bbc44aa560fe41829562854c4e29dd4',1,'StringInRange(const char *arg, char start, char end):&#160;PrintStats.c']]],
-  ['stringlength_52',['StringLength',['../_string_length_8c.html#a31d81f277abbd02ea521d49d2a8813af',1,'StringLength(const char *input):&#160;StringLength.c'],['../_string_length_8h.html#a31d81f277abbd02ea521d49d2a8813af',1,'StringLength(const char *input):&#160;StringLength.c']]],
-  ['stringlength_2ec_53',['StringLength.c',['../_string_length_8c.html',1,'']]],
-  ['stringlength_2eh_54',['StringLength.h',['../_string_length_8h.html',1,'']]],
-  ['sumofdigits_55',['SumOfDigits',['../_ex01_805_2_validate_id_8c.html#a9d34fcdb129919f6a8e7a800eff1ce55',1,'SumOfDigits(int number):&#160;ValidateId.c'],['../_ex01_805_2_validate_id_8h.html#a9d34fcdb129919f6a8e7a800eff1ce55',1,'SumOfDigits(int number):&#160;ValidateId.c'],['../_ex01_806_2_validate_id_8c.html#a9d34fcdb129919f6a8e7a800eff1ce55',1,'SumOfDigits(int number):&#160;ValidateId.c'],['../_ex01_806_2_validate_id_8h.html#a9d34fcdb129919f6a8e7a800eff1ce55',1,'SumOfDigits(int number):&#160;ValidateId.c']]],
-  ['swapelements_56',['SwapElements',['../_ex03_805_2_transpose_8c.html#a229c83533fc818bd3177cfb48b4d4603',1,'SwapElements(matrix_element *first, matrix_element *second):&#160;Transpose.c'],['../_ex03_805_2_transpose_8h.html#a229c83533fc818bd3177cfb48b4d4603',1,'SwapElements(matrix_element *first, matrix_element *second):&#160;Transpose.c'],['../_ex03_806_2_transpose_8c.html#a229c83533fc818bd3177cfb48b4d4603',1,'SwapElements(matrix_element *first, matrix_element *second):&#160;Transpose.c'],['../_ex03_806_2_transpose_8h.html#a229c83533fc818bd3177cfb48b4d4603',1,'SwapElements(matrix_element *first, matrix_element *second):&#160;Transpose.c']]],
-  ['symmetric_57',['SYMMETRIC',['../_ex03_806_2_transpose_8h.html#a07962dd0449c5d375d80af8cfaad8672a4b2338c5e1fba3b9cfb3a3473dfcc856',1,'Transpose.h']]]
+  ['next_38',['next',['../struct_node__t.html#a00dd0a636d0c9134072b4bc7951d08c2',1,'Node_t']]],
+  ['node_39',['Node',['../_linked_list_8h.html#afea10d386f9d1ac7ea594582204021eb',1,'LinkedList.h']]],
+  ['node_5ft_40',['Node_t',['../struct_node__t.html',1,'']]],
+  ['none_41',['NONE',['../_ex03_806_2_transpose_8h.html#a07962dd0449c5d375d80af8cfaad8672ac157bdf0b85a40d2619cbc8bc1ae5fe2',1,'Transpose.h']]],
+  ['notquiteedges_42',['NotQuiteEdges',['../_not_quite_edges_8c.html#a3821b49ceba592157acc60fb8b0863c0',1,'NotQuiteEdges(int *secondSmallest, int *secondLargest):&#160;NotQuiteEdges.c'],['../_not_quite_edges_8h.html#a3821b49ceba592157acc60fb8b0863c0',1,'NotQuiteEdges(int *secondSmallest, int *secondLargest):&#160;NotQuiteEdges.c']]],
+  ['notquiteedges_2ec_43',['NotQuiteEdges.c',['../_not_quite_edges_8c.html',1,'']]],
+  ['notquiteedges_2eh_44',['NotQuiteEdges.h',['../_not_quite_edges_8h.html',1,'']]]
 ];
