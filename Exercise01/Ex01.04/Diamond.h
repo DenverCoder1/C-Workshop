@@ -1,7 +1,7 @@
 #pragma once
 
 /**
- * @file Diamond
+ * @file Diamond.h
  */
 
  /**

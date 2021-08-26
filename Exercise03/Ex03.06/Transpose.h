@@ -2,7 +2,7 @@
 #define CELL_WIDTH      3
 #define CELL_PRECISION  0
 
-/// @file transpose.h
+/// @file Transpose.h
 
 /// Type definition for a numeric matrix element
 typedef double matrix_element;

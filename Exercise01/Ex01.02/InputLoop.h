@@ -2,7 +2,7 @@
 #include <stdbool.h>
 
 /**
- * @file Input Loop
+ * @file InputLoop.h
  */
 
  /**

@@ -1,7 +1,7 @@
 #pragma once
 #include <stdio.h>
 
-/// @file fibonacci.h
+/// @file Fibonacci.h
 
 /**
  * Shorthand for "unsigned long long int"

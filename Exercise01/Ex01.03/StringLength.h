@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * @file String Length
+ * @file StringLength.h
  */
 
  /**

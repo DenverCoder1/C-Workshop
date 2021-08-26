@@ -2,7 +2,7 @@
 #include <stdbool.h>
 
 /**
- * @file Not Quite Edges
+ * @file NotQuiteEdges.h
  */
 
  /**
