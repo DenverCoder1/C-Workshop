@@ -47,7 +47,7 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"_class-_exercises_2_linked_list_2_program_8c.html"
+"_diamond_8c.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
