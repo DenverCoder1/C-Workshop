@@ -22,7 +22,7 @@ struct List_t
 };
 
 /**
- * @brief Create a List object
+ * @brief Create a List object.
  *
  * @return List* The created List object
  */
