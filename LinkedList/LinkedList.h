@@ -31,7 +31,7 @@ List *CreateList();
 /**
  * @brief Free all memory allocated for the list.
  *
- * @param list The list to be freed.
+ * @param list The List to be freed.
  */
 void FreeList(List *list);
 
